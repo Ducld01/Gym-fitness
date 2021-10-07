@@ -1,0 +1,234 @@
+.footer {
+    width: 100%;
+    background-color: #222222;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &-container {
+        max-width: 1200px;
+        padding: 0 15px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        // justify-content: center;
+        // align-items: center;
+        .footer-header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-bottom: 1px solid #444444;
+            margin-top: 100px;
+            &-logo {
+                margin-bottom: 40px;
+                img {
+                    vertical-align: middle;
+                }
+            }
+            &-slogan {
+                display: flex;
+                justify-content: center;
+                text-align: center;
+                max-width: 770px;
+                width: 100%;
+                p {
+                    color: #696969;
+                    font-size: 14px;
+                    font-weight: 400;
+                    font-family: $font-pop;
+                    line-height: 21px;
+                }
+            }
+            &-socialNetwork {
+                display: flex;
+                max-width: 215px;
+                justify-content: space-between;
+                width: 100%;
+                margin-top: 40px;
+                margin-bottom: 57px;
+                &-facebook a i,
+                &-twitter a i,
+                &-googleplus a i,
+                &-youtube a i {
+                    font-size: 18px;
+                    color: #777777;
+                    line-height: 18px;
+                }
+            }
+        }
+        @include tablet {
+            max-width: 624px;
+            .footer-header {
+                margin-top: 53px;
+                &-logo {
+                    margin-bottom: 21px;
+                    img {
+                        max-width: 124px;
+                        width: 100%;
+                    }
+                }
+                &-slogan {
+                    max-width: 410px;
+                    p {
+                        font-size: 7px;
+                        line-height: 11px;
+                    }
+                }
+                &-socialNetwork {
+                    max-width: 115px;
+                    margin-top: 21px;
+                    margin-bottom: 30px;
+                    &-facebook a i,
+                    &-twitter a i,
+                    &-googleplus a i,
+                    &-youtube a i {
+                        font-size: 10px;
+                    }
+                }
+            }
+        }
+        @include ipad {
+            max-width: 468px;
+            margin-bottom: 10px;
+            .footer-header {
+                margin-top: 30px;
+            }
+        }
+        .footer-content {
+            position: relative;
+            max-width: 1200px;
+            padding: 0 15px;
+            // width: 100%;
+            margin-top: 79px;
+            &-container {
+                display: flex;
+                // column-gap: 30px;
+                margin: 0 -15px;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                width: 100%;
+                @include mobile {
+                    justify-content: center;
+                }
+                &-col {
+                    max-width: 270px;
+                    width: 100%;
+                    @include mobile {
+                        text-align: center;
+                    }
+                    h4 {
+                        font-size: 18px;
+                        font-family: $font-pop;
+                        font-weight: 700;
+                        line-height: 18px;
+                        color: #ffffff;
+                        text-transform: uppercase;
+                    }
+                    ul {
+                        margin-top: 40px;
+                        li {
+                            list-style: none;
+                            line-height: 14px;
+                            margin-bottom: 30px;
+
+                            a {
+                                text-decoration: none;
+                                color: #777777;
+                                font-size: 14px;
+                                font-weight: 400;
+                                font-family: $font-pop;
+                                line-height: 14px;
+                            }
+                            i {
+                                color: #777777;
+                                width: 16px;
+                                margin-right: 15px;
+                            }
+                        }
+                    }
+                }
+            }
+            @include tablet {
+                max-width: 624px;
+                margin-top: 42px;
+                &-container {
+                    column-gap: 16px;
+                    &-col {
+                        max-width: 144px;
+                        h4 {
+                            font-size: 10px;
+                            line-height: 10px;
+                        }
+                        ul {
+                            margin-top: 21px;
+                            li {
+                                line-height: 7px;
+                                margin-bottom: 16px;
+                                a {
+                                    font-size: 7px;
+                                    line-height: 7px;
+                                }
+                                i {
+                                    font-size: 8px;
+                                    width: 8px;
+                                    height: 8px;
+                                    margin-right: 8px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @include ipad {
+                max-width: 468px;
+                margin-top: 31.5px;
+                &-container {
+                    column-gap: 16px;
+                    &-col {
+                        max-width: 108px;
+                        h4 {
+                            font-size: 7.5px;
+                            line-height: 7.5px;
+                        }
+                        ul {
+                            margin-top: 16px;
+                            li {
+                                line-height: 5px;
+                                margin-bottom: 12px;
+                                a {
+                                    font-size: 5px;
+                                    line-height: 5px;
+                                }
+                                i {
+                                    font-size: 6px;
+                                    width: 6px;
+                                    height: 6px;
+                                    margin-right: 6px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            @include mobile {
+            }
+        }
+    }
+    .footer-copyright {
+        margin-top: 50px;
+        width: 100%;
+        height: 50px;
+        background-color: #111111;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        p{
+            margin: auto;
+            color: #727272;
+            font-family: $font-pop;
+            font-size: 14px;
+            font-weight: 400;
+        }
+    }
+}
