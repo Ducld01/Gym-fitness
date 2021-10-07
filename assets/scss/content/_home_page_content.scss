@@ -25,7 +25,6 @@ $color: #8262b5;
     .category-product {
         width: 60%;
         position: relative;
-        // height: 526px;
         margin: 0 15px;
         max-width: 1200px;
         padding: 0 15px;
@@ -37,17 +36,11 @@ $color: #8262b5;
         justify-content: center;
 
         @include ipad {
-            // height: 210px;
         }
         @include mobile {
-            // height: 102px;
         }
         &-container {
-            // position: absolute;
-            // top: -77px;
-            // max-width: 1170px;
-            // width: 60%;
-            // margin: 0 15px;
+            
             display: flex;
             overflow: hidden;
             box-shadow: 1px 1px 10px 0px rgba(0, 0, 0, 0.3);
@@ -68,25 +61,19 @@ $color: #8262b5;
                 width: 60%;
                 display: block;
             }
-            // box-shadow: 1px 1px 1px 1px #dcdcdc;
             &-dumbbells {
                 overflow: hidden;
-                // max-height: 500px;
-                // max-width: 390px;
+                
                 flex: 0 0 33.333%;
                 @include mobile{
-                    // display: flex;
                 }
                 .category-image {
                     width: 100%;
-                    // height: 50%;
-                    // height: 100%;
+                    
                     img {
                         vertical-align: middle;
                         @include tablet {
-                            // max-width: 208px;
                             width: 100%;
-                            // max-height: 133px;
                             height: 100%;
                         }
                         @include ipad {
@@ -95,14 +82,12 @@ $color: #8262b5;
                         }
                         @include mobile {
                             width: 100%;
-                            // height: 100%;
                         }
                     }
                 }
                 .category-content {
                     width: 100%;
                     text-align: center;
-                    // height: 100%;
                     max-height: 250px;
                     overflow: hidden;
                     background-color: #fff;
@@ -110,15 +95,7 @@ $color: #8262b5;
                     margin: auto;
                     align-items: center;
                     justify-content: space-around;
-                    // @include tablet {
-                    //     max-height: 133px;
-                    // }
-                    // @include ipad {
-                    //     max-height: 100px;
-                    // }
-                    // @include mobile{
-                    //     max-height: 41px;
-                    // }
+                    
                     .container {
                         align-items: center;
                         display: flex;
@@ -208,7 +185,6 @@ $color: #8262b5;
                             }
                         }
                         .category-content-title {
-                            // margin-bottom: 40px;
                             padding: 0 12px 0 12px;
                             line-height: 18px;
                             p {
@@ -219,7 +195,6 @@ $color: #8262b5;
                                 font-family: $font-pop;
                             }
                             @include tablet {
-                                // margin-bottom: 21px;
                                 p {
                                     line-height: 13px;
                                     font-size: 7px;
@@ -233,7 +208,6 @@ $color: #8262b5;
                                 }
                             }
                             @include mobile {
-                                // display: none;
                                 margin-bottom: 6px;
                                 line-height: 16px;
                                 p{
@@ -246,8 +220,7 @@ $color: #8262b5;
             }
             &-strenght .category-content-logo,
             &-power .category-content-logo {
-                // margin-top: 28px;
-                // margin-bottom: 30px;
+                
                 margin: 0 auto;
                 @include tablet {
                     margin-top: 15px;
@@ -260,28 +233,18 @@ $color: #8262b5;
                 }
                 @include ipad {
                     margin-top: 11px;
-                    // margin-bottom: 10px;
                     img {
                         width: 21px;
                         height: 27.75px;
                         margin: 0 auto;
                     }
                 }
-                // @include mobile {
-                //     // margin: 6px 0 5px 0;
-                //     margin-top: 15px;
-                //     height: 28px;
-                //     img {
-                //         width: 28px;
-                //         height: 34px;
-                //     }
-                // }
+                
             }
             &-strenght {
                 overflow: hidden;
                 flex: 0 0 33.333%;
                 @include mobile{
-                    // display: flex;
                 }
                 .category-image {
                     width: 100%;
@@ -289,15 +252,11 @@ $color: #8262b5;
                     img {
                         vertical-align: middle;
                         @include tablet {
-                            // max-width: 208px;
                             width: 100%;
-                            // max-height: 133px;
                             height: 100%;
                         }
                         @include ipad {
-                            // max-width: 156px;
                             width: 100%;
-                            // max-height: 100px;
                             height: 100%;
                         }
                         @include mobile {
@@ -426,7 +385,6 @@ $color: #8262b5;
                                 p {
                                     font-size: 5px;
                                     line-height: 7.5px;
-                                    // margin: 0 16px;
                                 }
                             }
                             @include mobile {
@@ -445,7 +403,6 @@ $color: #8262b5;
                 overflow: hidden;
                 flex: 0 0 33.333%;
                 @include mobile{
-                    // display: flex;
                 }
                 .category-image {
                     width: 100%;
@@ -453,15 +410,11 @@ $color: #8262b5;
                     img {
                         vertical-align: middle;
                         @include tablet {
-                            // max-width: 208px;
                             width: 100%;
-                            // max-height: 133px;
                             height: 100%;
                         }
                         @include ipad {
-                            // max-width: 156px;
                             width: 100%;
-                            // max-height: 100px;
                             height: 100%;
                         }
                         @include mobile {
@@ -590,7 +543,6 @@ $color: #8262b5;
                                 p {
                                     font-size: 5px;
                                     line-height: 7.5px;
-                                    // margin: 0 16px;
                                 }
                             }
                             @include mobile {
@@ -628,7 +580,6 @@ $color: #8262b5;
             max-width: 468px;
         }
         @include mobile {
-            // width: 56%;
         }
         &-header {
             border-bottom: 1px solid #dddddd;
@@ -681,12 +632,9 @@ $color: #8262b5;
             display: flex;
             flex-wrap: wrap;
             margin-top: 40px;
-            // justify-content: space-between;
             column-gap: 2.5%;
-            // height: 707px;
             @include tablet {
                 margin-top: 21px;
-                // height: 377px;
             }
             @include mobile {
                 column-gap: 0px;
@@ -721,10 +669,7 @@ $color: #8262b5;
 
                     @include tablet {
                         img {
-                            // max-width: 144px;
                             width: 100%;
-                            // max-height: 123px;
-                            // height: 100%;
                         }
                     }
                     .product-action-icon {
@@ -780,7 +725,6 @@ $color: #8262b5;
                         font-family: $font-pop;
                         font-size: 14px;
                         line-height: 18px;
-                        // margin-bottom: 14px;
                         font-weight: 400;
                         color: #424242;
                         text-transform: capitalize;

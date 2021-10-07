@@ -11,8 +11,6 @@
     }
     .client-container {
         display: flex;
-        // max-width: 1200px;
-        // padding: 0 15px;
         width: 100%;
         justify-content: center;
         text-align: center;
@@ -28,7 +26,6 @@
             max-width: 800px;
             width: 100%;
             padding: 0 15px;
-            // overflow: hidden;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -192,7 +189,6 @@
         max-width: 1200px;
         padding: 0 15px;
         width: 100%;
-        // column-gap: 30px;
         flex-wrap: wrap;
         align-items: center;
         .brand-item {
@@ -201,7 +197,6 @@
             text-align: center;
             max-height: 152px;
             height: 100%;
-            // display: block;
             display: flex;
             align-items: center;
             position: relative;
@@ -226,8 +221,6 @@
         @include ipad {
             max-width: 468px;
         }
-        @include mobile {
-            // display: none;
-        }
+        
     }
 }
