@@ -25,3 +25,11 @@
 @import './content/blog_content.scss';
 @import './common/configskin/skin.scss';
 
+// responsive
+
+@import './responsive/header';
+@import './responsive/footer';
+@import './responsive/blog_content';
+@import './responsive/header_mobile';
+@import './responsive/home_page_content';
+@import './responsive/skin'
