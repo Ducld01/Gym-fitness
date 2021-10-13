@@ -21,7 +21,7 @@ $colorText: #fff;
 .header .header-container .header-logo {
     max-width: 270px;
     width: 100%;
-    // margin-right: 30px;
+    padding-left: 8px;
     display: flex;
     justify-content: flex-start;
     a {
@@ -33,7 +33,7 @@ $colorText: #fff;
 .header .header-container .header-menu {
     max-width: 570px;
     // height: 100%;
-    margin-top: 3px;
+    margin-top: 5px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -46,7 +46,7 @@ $colorText: #fff;
             list-style: none;
             line-height: 1.75;
             text-align: center;
-            margin-right: 50px;
+            margin-right: 51px;
             a {
                 font-size: 16px;
                 font-weight: 400;
@@ -69,6 +69,7 @@ $colorText: #fff;
     ul {
         display: flex;
         justify-content: center;
+        margin-right: -5px;
         li {
             list-style: none;
             line-height: 16px;
@@ -82,9 +83,9 @@ $colorText: #fff;
             a:hover {
                 color: #ffd23d;
             }
-            a:last-child {
-                margin-right: 0;
-            }
+            // a:last-child {
+            //     // margin-right: 0;
+            // }
         }
         li:last-child {
             padding-right: 0;

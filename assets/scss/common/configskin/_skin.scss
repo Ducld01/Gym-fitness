@@ -11,10 +11,10 @@ $colorText: #ffffff;
     justify-content: center;
 
     &-content {
-        max-width: 1170px;
-        // padding: 0 15px;
+        max-width: 1200px;
+        padding: 0 15px;
         .container {
-            
+            // margin: 0 -15px;
             padding-top: 307px;
             
         }
@@ -22,7 +22,8 @@ $colorText: #ffffff;
 }
 .banner-content .container {
     .banner-content-title {
-        width: 50%;
+        width: 48%;
+        padding-left: 4px;
         .title-heading {
             height: 100%;
             font-size: 60px;
@@ -30,18 +31,21 @@ $colorText: #ffffff;
             color: #fff;
             text-transform: capitalize;
             font-family: $font-pop;
-            margin-left: 1px;
+            // margin-left: 1px;
             line-height: 60px;
-            margin-bottom: 8px;
+            margin-bottom: 5px;
         }
         .sub-title-heading {
             font-size: 40px;
             font-weight: 700;
             color: $colorText;
             font-family: $font-pop;
-            margin-bottom: 22px;
+            margin-bottom: 16px;
         }
         p {
+            
+            padding-left: 4px;
+            line-height: 1.714;
             font-size: 14px;
             color: $colorText;
             font-family: $font-pop;
@@ -51,12 +55,13 @@ $colorText: #ffffff;
 }
 .banner-content .container {
     .banner-content-button {
+        margin-left: 8px;
         width: 170px;
         height: 50px;
         border: 1px solid #fff;
         display: flex;
         justify-content: center;
-        margin-top: 60px;
+        margin-top: 57px;
         cursor: pointer;
 
         a {

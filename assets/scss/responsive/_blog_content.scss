@@ -1,25 +1,2 @@
 
 
-.brand-container {
-    @media (max-width: 1049px) {
-        justify-content: center;
-    }
-    @include tablet {
-        max-width: 624px;
-        column-gap: 16px;
-        .brand-item {
-            max-width: 91px;
-            max-height: 81px;
-            img {
-                width: 100%;
-                margin: 21px auto;
-            }
-        }
-    }
-    @include ipad {
-        max-width: 468px;
-    }
-    @include mobile {
-        // display: none;
-    }
-}
