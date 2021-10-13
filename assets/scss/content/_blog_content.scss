@@ -1,11 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
 .client-say {
     width: 100%;
     position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 52px;
     margin-bottom: 100px;
 
     .client-container {
@@ -17,7 +16,7 @@
         position: relative;
 
         .client-item {
-            max-width: 800px;
+            max-width: 900px;
             width: 100%;
             padding: 0 15px;
             // overflow: hidden;
@@ -44,9 +43,11 @@
 }
 .client-item .customer-wrapper {
     width: 100%;
+    // width: 800px;
     overflow: hidden;
     position: relative;
     display: flex;
+    
     margin: auto;
     .slick-arrow {
         display: none;
@@ -81,6 +82,7 @@
     .item {
         width: 100%;
         flex: 1 0 100%;
+        padding: 0 10px;
         position: relative;
         justify-content: center;
         transition: all 0.5 ease;
@@ -94,12 +96,13 @@
         }
         .client-message {
             text-align: center;
-            margin-bottom: 40px;
+            margin-bottom: 28px;
+            // margin: 0 -15px 40px -15px;
             p {
                 font-size: 18px;
                 font-family: $font-pop;
                 font-weight: 400;
-                line-height: 18px;
+                line-height: 1.667;
                 color: #989898;
             }
         }
@@ -113,7 +116,7 @@
                 line-height: 18px;
                 color: #000000;
                 text-transform: uppercase;
-                margin-bottom: 20px;
+                margin-bottom: 14px;
             }
             span {
                 font-size: 14px;

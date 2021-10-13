@@ -18,18 +18,22 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
+
 @import './base/_header.scss';
 @import './base/footer';
 @import './base/header_mobile';
-@import './content/home_page_content.scss';
+@import './content/home_page_content';
 @import './content/blog_content.scss';
 @import './common/configskin/skin.scss';
-
 // responsive
 
-@import './responsive/header';
-@import './responsive/footer';
-@import './responsive/blog_content';
-@import './responsive/header_mobile';
-@import './responsive/home_page_content';
-@import './responsive/skin'
+@import '../scss/responsive/header';
+@import '../scss/responsive/header_mobile';
+@import '../scss/responsive/home_page_content';
+@import '../scss/responsive/skin';
+@import '../scss/responsive/blog_content';
+@import '../scss/responsive/footer';

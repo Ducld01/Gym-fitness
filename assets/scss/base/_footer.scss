@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;900&display=swap");
 .footer {
     width: 100%;
     background-color: #222222;
@@ -23,7 +22,7 @@
             
         }
         .footer-header-logo{
-            margin-bottom: 40px;
+            margin-bottom: 35px;
             img {
                 vertical-align: middle;
             }
@@ -39,13 +38,14 @@
                 font-size: 14px;
                 font-weight: 400;
                 font-family: $font-pop;
-                line-height: 21px;
+                line-height: 1.714;
             }
         }
 
         .footer-content {
             position: relative;
-            max-width: 1200px;
+            margin-left: -15px;
+            margin-right: -15px;
             margin-top: 79px;
             &-container {
                 display: flex;
@@ -63,7 +63,7 @@
             max-width: 215px;
             justify-content: space-between;
             width: 100%;
-            margin-top: 40px;
+            margin-top: 42px;
             margin-bottom: 57px;
             &-facebook a i,
             &-twitter a i,
@@ -85,9 +85,7 @@
     .footer-content-container-col {
         width: 25%;
         padding: 0 15px;
-        @include mobile {
-            text-align: center;
-        }
+        
         h4 {
             font-size: 18px;
             font-family: $font-pop;
@@ -100,15 +98,20 @@
         @media (max-width: 1200px) {
             width: 50%;
             margin-bottom: 10px;
+            text-align: left;
+        }
+        @include mobile {
+            text-align: center;
+            width: 100%;
         }
     }
     .footer-content-container-col ul{
         
-        margin-top: 40px;
+        margin-top: 32px;
         li {
             list-style: none;
             line-height: 14px;
-            margin-bottom: 30px;
+            margin-bottom: 25px;
 
             a {
                 text-decoration: none;
@@ -130,7 +133,7 @@
     }
 
     .footer-copyright {
-        margin-top: 50px;
+        margin-top: 24px;
         width: 100%;
         height: 50px;
         background-color: #111111;

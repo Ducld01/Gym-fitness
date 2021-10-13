@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap");
 $font-pop: "Poppins", sans-serif;
 $colorText: #ffffff;
 .banner {
@@ -12,8 +11,8 @@ $colorText: #ffffff;
     justify-content: center;
 
     &-content {
-        max-width: 1200px;
-        padding: 0 15px;
+        max-width: 1170px;
+        // padding: 0 15px;
         .container {
             
             padding-top: 307px;
@@ -40,7 +39,7 @@ $colorText: #ffffff;
             font-weight: 700;
             color: $colorText;
             font-family: $font-pop;
-            margin-bottom: 30px;
+            margin-bottom: 22px;
         }
         p {
             font-size: 14px;
